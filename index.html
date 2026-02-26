@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마음 질문 카드</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Home Screen -->
+        <main id="home-screen" class="screen active">
+            <div class="header">
+                <h1>마음 질문 카드</h1>
+                <p>우리의 마음을 나누는 시간</p>
+            </div>
+
+            <div class="series-container">
+                <div class="series-card" data-series="자존감편">
+                    <div class="series-icon">✨</div>
+                    <h2>자존감편</h2>
+                    <p>나를 더 깊이 알아가는 질문들</p>
+                </div>
+                <div class="series-card disabled" data-series="커플편">
+                    <div class="series-icon">💕</div>
+                    <h2>커플편</h2>
+                    <p>서로의 마음을 확인하는 시간 (준비중)</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Play Screen -->
+        <main id="play-screen" class="screen">
+            <header class="play-header">
+                <button id="btn-home" class="btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+                <h2 id="current-series-title">자존감편</h2>
+                <div class="progress">
+                    <span id="cards-remaining">남은 카드: 0</span>
+                </div>
+            </header>
+
+            <div class="card-area">
+                <div class="deck-container">
+                    <div id="card-display" class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <p id="card-text" class="placeholder-text">터치하여 질문 카드 뽑기</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="btn-draw" class="btn-primary">시작하기</button>
+            </div>
+
+            <!-- End Screen Overlay -->
+            <div id="end-overlay" class="overlay hidden">
+                <div class="overlay-content">
+                    <h2>모든 카드를 섞었습니다!</h2>
+                    <p>서로의 대화가 더욱 깊어지길 바라요.</p>
+                    <button id="btn-restart" class="btn-secondary">다시 섞기</button>
+                    <button id="btn-home-end" class="btn-primary">홈으로 돌아가기</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

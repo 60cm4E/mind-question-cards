@@ -364,10 +364,440 @@ const seriesData = {
                 "1년 후, 약속을 지킨 나에게 어떤 보상을 주고 싶은가요?"
             ]
         }
+    ],
+    "커플편": [
+        {
+            q: "상대방에게 궁금하면서도 차마 꺼내지 못한 이야기가 있나요?",
+            follow: [
+                "왜 그 이야기를 지금까지 하지 못했나요?",
+                "둘이 대화할 때 어떤 주제를 가장 많이 나누는 편인가요?"
+            ]
+        },
+        {
+            q: "함께하는 데이트에서 가장 중요하게 여기는 요소는 무엇인가요?",
+            follow: [
+                "그 요소가 중요하다고 느끼는 이유는 뭔가요?",
+                "기억에 남는 최고의 데이트는 언제, 무엇을 했나요?"
+            ]
+        },
+        {
+            q: "당신에게 연애란 어떤 의미를 갖고 있나요?",
+            follow: [
+                "그렇게 생각하게 된 특별한 계기가 있나요?",
+                "연애에서 가장 소중하게 여기는 가치는 무엇인가요?"
+            ]
+        },
+        {
+            q: "만일 상대가 다른 사람에게 마음을 줬다면 어떻게 하실 건가요?",
+            follow: [
+                "나만의 경계선이나 기준이 있다면 무엇인가요?",
+                "그 기준을 세운 이유가 궁금해요"
+            ]
+        },
+        {
+            q: "둘만의 아지트처럼 자주 찾는 장소가 있나요?",
+            follow: [
+                "그 장소를 처음 가게 된 사연이 있나요?",
+                "그곳의 어떤 점이 가장 마음에 드나요?"
+            ]
+        },
+        {
+            q: "상대에게 들었던 말 중 마음 깊이 와닿은 한마디는 무엇인가요?",
+            follow: [
+                "그 말을 듣고 어떤 감정이 들었나요?",
+                "반대로, 가장 상처받았던 말도 있나요?"
+            ]
+        },
+        {
+            q: "요즘 상대에게 가장 듣고 싶은 말이 있다면 무엇인가요?",
+            follow: [
+                "왜 그 말이 특별히 듣고 싶은 건가요?",
+                "내가 상대에게 전하고 싶은 말은 무엇인가요?"
+            ]
+        },
+        {
+            q: "상대에게서 느껴지는 고유한 향기가 있나요?",
+            follow: [
+                "그 향기를 좋아하는 편인가요?",
+                "그 향기가 떠오르면 어떤 기분이 드나요?"
+            ]
+        },
+        {
+            q: "3년 뒤, 둘이 함께 어떤 모습이길 바라나요?",
+            follow: [
+                "그런 미래를 그리는 이유가 있나요?",
+                "10년 후의 우리에게 해주고 싶은 말이 있다면요?"
+            ]
+        },
+        {
+            q: "한 해를 돌아보며 가장 소중했던 기념일은 언제인가요?",
+            follow: [
+                "그 날을 특별하게 보내기 위해 어떤 것을 했나요?",
+                "가장 기억에 남는 기념일 에피소드가 있나요?"
+            ]
+        },
+        {
+            q: "결혼에 대해 어떤 생각을 갖고 있나요?",
+            follow: [
+                "결혼을 한 문장으로 정의한다면 어떻게 표현하겠어요?",
+                "결혼 후 가장 하고 싶은 일은 무엇인가요?"
+            ]
+        },
+        {
+            q: "처음 만났던 날의 기억이 선명한가요?",
+            follow: [
+                "그날의 기억 중 가장 좋았던 장면은 무엇이었나요?",
+                "그때로 다시 돌아간다면 무엇을 하고 싶나요?"
+            ]
+        },
+        {
+            q: "상대에게서 배우고 싶은 점이 있다면 무엇인가요?",
+            follow: [
+                "그렇게 느낀 계기가 있었나요?",
+                "주변에 연인 자랑을 자주 하는 편인가요?"
+            ]
+        },
+        {
+            q: "올해가 끝나기 전에 둘이서 꼭 해보고 싶은 것이 있다면요?",
+            follow: [
+                "그것을 위해 이미 준비하고 있는 게 있나요?",
+                "상대방의 올해 목표를 알고 있나요?"
+            ]
+        },
+        {
+            q: "오늘 하루, 함께 있으면서 가장 크게 느낀 감정은 무엇이었나요?",
+            follow: [
+                "그 감정을 상대에게 잘 표현하는 편인가요?",
+                "어떤 순간에 마음을 가장 공유하고 싶나요?"
+            ]
+        },
+        {
+            q: "상대에게 선물하고 싶은 것이 있다면 무엇인가요?",
+            follow: [
+                "그 선물을 고른 이유가 궁금해요",
+                "만약 상대가 마음에 들어하지 않는다면 어떻게 하겠어요?"
+            ]
+        },
+        {
+            q: "사귀기 전에 그렸던 이상적인 연인의 모습은 어땠나요?",
+            follow: [
+                "지금의 연인은 그 이상형과 얼마나 비슷한가요?",
+                "비슷하거나 다른 점이 있다면 구체적으로 무엇인가요?"
+            ]
+        },
+        {
+            q: "두 사람이 처음 만났던 장소를 기억하나요?",
+            follow: [
+                "그 장소에 다시 함께 가본 적이 있나요?",
+                "마지막으로 같이 가고 싶은 장소가 있다면 어디인가요?"
+            ]
+        },
+        {
+            q: "서로의 애정 표현에 만족하고 있나요?",
+            follow: [
+                "평소 어떤 방식으로 사랑을 표현하나요?",
+                "상대가 가장 좋아하는 애정 표현을 알고 있나요?"
+            ]
+        },
+        {
+            q: "상대방을 얼마나 잘 알고 있다고 생각하나요?",
+            follow: [
+                "앞으로 더 알고 싶은 부분이 있다면 무엇인가요?",
+                "나만 알고 있는 상대의 특별한 모습이 있나요?"
+            ]
+        },
+        {
+            q: "상대의 무의식적인 버릇이나 습관이 있나요?",
+            follow: [
+                "그 모습을 보면 어떤 생각이 드나요?",
+                "나도 모르는 습관을 상대가 알려준 적이 있나요?"
+            ]
+        },
+        {
+            q: "일상에서 계획을 세우는 것을 좋아하는 편인가요?",
+            follow: [
+                "데이트 계획은 보통 누가 잡는 편인가요?",
+                "가장 정성 들여 세웠던 계획은 무엇이었나요?"
+            ]
+        },
+        {
+            q: "상대를 다섯 글자로 표현해본다면 어떤 말인가요?",
+            follow: [
+                "그렇게 표현한 이유가 있나요?",
+                "상대방은 그 표현을 들으면 어떤 반응일 것 같나요?"
+            ]
+        },
+        {
+            q: "나에게 행복이란 어떤 의미인가요?",
+            follow: [
+                "상대와 함께 가장 행복했던 순간은 언제였나요?",
+                "상대가 가장 행복해할 때는 언제라고 생각하나요?"
+            ]
+        },
+        {
+            q: "처음으로 신체적 친밀감을 나눈 순간이 기억나나요?",
+            follow: [
+                "누가 먼저 다가갔나요?",
+                "그 순간 어떤 감정을 느꼈나요?"
+            ]
+        },
+        {
+            q: "상대의 예상 밖 매력은 무엇이라고 생각하나요?",
+            follow: [
+                "그걸 알게 된 계기가 있다면요?",
+                "상대방은 자신의 그 매력을 알고 있을까요?"
+            ]
+        },
+        {
+            q: "내가 자신 있게 만들 수 있는 요리는 무엇인가요?",
+            follow: [
+                "상대에게 그 요리를 해준 적이 있나요?",
+                "상대가 가장 잘하는 요리는 무엇인가요?"
+            ]
+        },
+        {
+            q: "처음 데이트했던 날을 떠올려볼 수 있나요?",
+            follow: [
+                "어디에서 무엇을 했나요?",
+                "그날 느꼈던 감정은 어떤 것이었나요?"
+            ]
+        },
+        {
+            q: "상대에게 이것만큼은 변하지 않았으면 하는 점이 있나요?",
+            follow: [
+                "왜 그 점이 변하면 안 된다고 느끼나요?",
+                "반대로, 이것만큼은 고쳐줬으면 하는 점이 있나요?"
+            ]
+        },
+        {
+            q: "'연말'이라는 단어를 들으면 가장 먼저 뭐가 떠오르나요?",
+            follow: [
+                "올 연말에 함께 하고 싶은 일이 있나요?",
+                "연말에 겪었던 가장 특별했던 추억은 무엇인가요?"
+            ]
+        },
+        {
+            q: "서로 연락하는 주기는 보통 어느 정도인가요?",
+            follow: [
+                "연락 빈도에 대해 솔직하게 대화해 본 적이 있나요?",
+                "지금의 연락 빈도에 둘 다 만족하고 있나요?"
+            ]
+        },
+        {
+            q: "올해 상대에게 특별한 상을 준다면 어떤 상인가요?",
+            follow: [
+                "그 상을 주고 싶은 이유는 무엇인가요?",
+                "반대로 상대가 나에게 상을 준다면 어떤 상이길 바라나요?"
+            ]
+        },
+        {
+            q: "상대에게 가장 미안했던 순간이 있다면 언제인가요?",
+            follow: [
+                "당시 어떤 상황이었나요?",
+                "그때로 돌아간다면 나에게 어떤 말을 해주고 싶나요?"
+            ]
+        },
+        {
+            q: "가장 좋아하는 계절은 무엇이고, 그 이유는요?",
+            follow: [
+                "상대가 좋아하는 계절을 알고 있나요?",
+                "함께 데이트하기 가장 좋았던 계절은 언제인가요?"
+            ]
+        },
+        {
+            q: "주변 사람들에게 우리 사이를 소개해 본 적이 있나요?",
+            follow: [
+                "가장 먼저 누구에게 알렸나요?",
+                "가장 재미있었던 소개 자리 에피소드가 있나요?"
+            ]
+        },
+        {
+            q: "연인이 되고 나서 알게 된 상대의 뜻밖의 면모가 있나요?",
+            follow: [
+                "그 모습을 보면 어떤 생각이 드나요?",
+                "상대의 또 다른 숨겨진 면모를 하나 더 말한다면요?"
+            ]
+        },
+        {
+            q: "가장 오래 기억에 남는 데이트는 무엇인가요?",
+            follow: [
+                "그날 기분은 어땠나요?",
+                "그 데이트가 특별했던 결정적인 이유는 무엇인가요?"
+            ]
+        },
+        {
+            q: "신혼여행지로 가장 가고 싶은 곳은 어디인가요?",
+            follow: [
+                "그곳을 선택한 이유가 있나요?",
+                "그곳에서 꼭 해보고 싶은 한 가지는 무엇인가요?"
+            ]
+        },
+        {
+            q: "연애에서 가장 중시하는 가치관은 무엇인가요?",
+            follow: [
+                "그 가치관을 중요하게 여기게 된 계기가 있나요?",
+                "상대가 그 가치관을 존중하지 못했다고 느낀 적이 있나요?"
+            ]
+        },
+        {
+            q: "상대에게 사랑받고 있다고 느끼는 순간은 언제인가요?",
+            follow: [
+                "상대는 애정 표현을 잘하는 편인가요?",
+                "상대의 애정 표현 중 더 바라는 부분이 있나요?"
+            ]
+        },
+        {
+            q: "둘만의 특별한 호칭이나 별명이 있나요?",
+            follow: [
+                "그 호칭이 생긴 사연이 궁금해요",
+                "호칭의 변천사가 있다면 들려주세요"
+            ]
+        },
+        {
+            q: "함께 사는 것에 대해 어떻게 생각하나요?",
+            follow: [
+                "같이 산다면 가장 하고 싶은 일은 무엇인가요?",
+                "함께 살고 싶은 동네나 환경이 있나요?"
+            ]
+        },
+        {
+            q: "둘 중 누가 먼저 마음을 고백했나요?",
+            follow: [
+                "그때 상황이 어떠했나요?",
+                "그날로 돌아갈 수 있다면 어떤 것을 하고 싶나요?"
+            ]
+        },
+        {
+            q: "상대에게 처음 반했던 포인트가 있다면 무엇인가요?",
+            follow: [
+                "여전히 그 포인트에 설레나요?",
+                "내가 상대에게 어필하려 했던 매력은 무엇이었나요?"
+            ]
+        },
+        {
+            q: "상대가 최근에 보내준 편지나 메시지 중 기억나는 내용이 있나요?",
+            follow: [
+                "받았던 편지 중 가장 감동적이었던 내용은 무엇인가요?",
+                "나는 주로 어떤 순간에 편지를 쓰고 싶어지나요?"
+            ]
+        },
+        {
+            q: "내가 상대를 사랑하고 있음을 가장 크게 느끼는 순간은 언제인가요?",
+            follow: [
+                "사랑한다고 느끼는 이유는 무엇인가요?",
+                "애정을 표현할 때 상대가 어떻게 반응해주면 좋겠나요?"
+            ]
+        },
+        {
+            q: "나의 최애 음식은 무엇인가요?",
+            follow: [
+                "상대의 최애 음식을 알고 있나요?",
+                "둘이 함께 즐기는 음식은 무엇인가요?"
+            ]
+        },
+        {
+            q: "주고받은 선물 중 가장 기억에 남는 것은 무엇인가요?",
+            follow: [
+                "그때 어떤 기분이었나요?",
+                "상대에게 받고 싶은 선물이 있다면요?"
+            ]
+        },
+        {
+            q: "나에게 사랑이란 무엇이라고 생각하나요?",
+            follow: [
+                "그런 생각을 하게 된 계기가 있나요?",
+                "'사랑' 하면 가장 먼저 떠오르는 사람은 누구인가요?"
+            ]
+        },
+        {
+            q: "상대를 만난 후 나에게 생긴 변화가 있다면 무엇인가요?",
+            follow: [
+                "그 변화가 마음에 드나요?",
+                "내가 상대에게 어떤 영향을 줬다고 생각하나요?"
+            ]
+        },
+        {
+            q: "연인을 위해 어디까지 해줄 수 있나요?",
+            follow: [
+                "지금까지 상대를 위해 한 가장 큰 행동은 무엇이었나요?",
+                "그 행동이 나에게 어떤 의미였나요?"
+            ]
+        },
+        {
+            q: "최근 새롭게 관심이 생긴 분야가 있다면 무엇인가요?",
+            follow: [
+                "그 분야에 관심을 갖게 된 계기가 있나요?",
+                "연인과도 그 분야에 대해 이야기를 나누나요?"
+            ]
+        },
+        {
+            q: "상대에게 바라는 점이 있다면 무엇인가요?",
+            follow: [
+                "그것을 바라는 이유가 있나요?",
+                "상대방이 나에게 무엇을 바라는지 알고 있나요?"
+            ]
+        },
+        {
+            q: "오늘로 만난 지 며칠이 되었나요?",
+            follow: [
+                "만나는 날짜를 세는 편인가요? 그 이유는요?",
+                "특별하다고 느껴지는 날은 언제인가요?"
+            ]
+        },
+        {
+            q: "못 먹는 음식이 있나요?",
+            follow: [
+                "상대가 못 먹는 음식을 알고 있나요?",
+                "상대가 가장 좋아하는 음식도 알고 있나요?"
+            ]
+        },
+        {
+            q: "상대에게 친구를 소개해 준 적이 있나요?",
+            follow: [
+                "그때 분위기는 어땠나요?",
+                "상대의 가장 친한 친구가 누구인지 알고 있나요?"
+            ]
+        },
+        {
+            q: "아직 상대에게 보여주지 못한 나의 모습이 있나요?",
+            follow: [
+                "왜 아직 보여주지 못했나요?",
+                "가장 보여주고 싶은 모습은 무엇인가요?"
+            ]
+        },
+        {
+            q: "사랑과 우정의 차이는 무엇이라고 생각하나요?",
+            follow: [
+                "둘 중 하나를 선택해야 한다면 어느 쪽인가요?",
+                "상대방도 같은 생각일 것 같나요?"
+            ]
+        },
+        {
+            q: "상대에게 어떤 모습으로 비춰지고 싶나요?",
+            follow: [
+                "지금의 내 모습은 어떤 것 같나요?",
+                "상대의 어떤 모습을 가장 좋아하나요?"
+            ]
+        },
+        {
+            q: "둘이 함께 즐기고 싶은 취미가 있다면 무엇인가요?",
+            follow: [
+                "왜 그 취미를 함께 하고 싶나요?",
+                "상대의 취미를 잘 알고 있나요?"
+            ]
+        },
+        {
+            q: "내가 나를 가장 아꼈던 시기는 언제라고 생각하나요?",
+            follow: [
+                "그때라고 생각한 이유는 무엇인가요?",
+                "나를 사랑하기 위해 가장 필요한 건 무엇일까요?"
+            ]
+        }
     ]
 };
 
 let deck = [];
+let history = [];
 let currentSeries = "";
 
 // Elements
@@ -376,6 +806,7 @@ const playScreen = document.getElementById('play-screen');
 const seriesCards = document.querySelectorAll('.series-card:not(.disabled)');
 const btnHome = document.getElementById('btn-home');
 const btnDraw = document.getElementById('btn-draw');
+const btnPrev = document.getElementById('btn-prev');
 const cardDisplay = document.getElementById('card-display');
 const cardText = document.getElementById('card-text');
 const followUpContainer = document.getElementById('follow-up-container');
@@ -394,6 +825,31 @@ function shuffleArray(array) {
     return newArray;
 }
 
+function updatePrevButton() {
+    btnPrev.style.display = history.length > 1 ? 'flex' : 'none';
+}
+
+function displayCard(item) {
+    // Set main question
+    cardText.textContent = item.q;
+    cardText.className = "";
+
+    // Set follow-up questions
+    followUpContainer.classList.remove('visible');
+    followUpContainer.innerHTML = "";
+
+    if (item.follow && item.follow.length > 0) {
+        item.follow.forEach(fq => {
+            const p = document.createElement('p');
+            p.textContent = `– ${fq}`;
+            followUpContainer.appendChild(p);
+        });
+        setTimeout(() => {
+            followUpContainer.classList.add('visible');
+        }, 400);
+    }
+}
+
 function startSeries(seriesName) {
     currentSeries = seriesName;
     if (seriesData[seriesName]) {
@@ -401,6 +857,7 @@ function startSeries(seriesName) {
     } else {
         deck = [];
     }
+    history = [];
 
     // Reset UI
     endOverlay.classList.remove('active');
@@ -410,6 +867,7 @@ function startSeries(seriesName) {
     followUpContainer.innerHTML = "";
     followUpContainer.classList.remove('visible');
     btnDraw.textContent = "첫 질문 뽑기";
+    updatePrevButton();
 
     updateRemaining();
 
@@ -443,7 +901,7 @@ function drawNextCard() {
 
         setTimeout(() => {
             showNewCard();
-        }, 300); // Trigger draw when discarding is halfway
+        }, 300);
     } else {
         showNewCard();
     }
@@ -456,32 +914,16 @@ function showNewCard() {
     }
 
     const nextItem = deck.pop();
+    history.push(nextItem);
     updateRemaining();
+    updatePrevButton();
 
     cardDisplay.classList.remove('discard-anim');
 
-    // Set main question
-    cardText.textContent = nextItem.q;
-    cardText.className = ""; // Remove placeholder style
-
-    // Set follow-up questions
-    followUpContainer.classList.remove('visible');
-    followUpContainer.innerHTML = "";
-
-    if (nextItem.follow && nextItem.follow.length > 0) {
-        nextItem.follow.forEach(fq => {
-            const p = document.createElement('p');
-            p.textContent = `– ${fq}`;
-            followUpContainer.appendChild(p);
-        });
-        // Slight delay for smooth appearance
-        setTimeout(() => {
-            followUpContainer.classList.add('visible');
-        }, 400);
-    }
+    displayCard(nextItem);
 
     // Restart animation
-    void cardDisplay.offsetWidth; // reflow trick
+    void cardDisplay.offsetWidth;
     cardDisplay.classList.add('draw-anim');
 
     if (deck.length === 0) {
@@ -490,10 +932,46 @@ function showNewCard() {
         btnDraw.textContent = "다음 카드 뽑기";
     }
 
-    // Animation ends safely
     setTimeout(() => {
         isAnimating = false;
     }, 600);
+}
+
+function showPrevCard() {
+    if (isAnimating || history.length <= 1) return;
+
+    isAnimating = true;
+
+    // Put current card back into the deck
+    const currentItem = history.pop();
+    deck.push(currentItem);
+    updateRemaining();
+
+    // Show previous card (now the last in history)
+    const prevItem = history[history.length - 1];
+
+    cardDisplay.classList.remove('draw-anim');
+    cardDisplay.classList.add('discard-anim');
+
+    setTimeout(() => {
+        cardDisplay.classList.remove('discard-anim');
+
+        displayCard(prevItem);
+        updatePrevButton();
+
+        void cardDisplay.offsetWidth;
+        cardDisplay.classList.add('draw-anim');
+
+        if (deck.length === 0) {
+            btnDraw.textContent = "결과 보기";
+        } else {
+            btnDraw.textContent = "다음 카드 뽑기";
+        }
+
+        setTimeout(() => {
+            isAnimating = false;
+        }, 600);
+    }, 300);
 }
 
 function showEndScreen() {
@@ -522,5 +1000,6 @@ btnRestart.addEventListener('click', () => {
     startSeries(currentSeries);
 });
 
+btnPrev.addEventListener('click', showPrevCard);
 btnDraw.addEventListener('click', drawNextCard);
 cardDisplay.addEventListener('click', drawNextCard);
